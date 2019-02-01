@@ -17,6 +17,7 @@ export class ChartjsBarHorizontalComponent implements OnDestroy {
 
       const colors: any = config.variables;
       const chartjs: any = config.variables.chartjs;
+    
 
       this.data = {
         labels: ['January', 'February', 'March', 'April', 'May', 'June'],
